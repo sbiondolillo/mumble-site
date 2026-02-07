@@ -5,7 +5,7 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
 
 [params]
   env = "production"
-  defaultTheme = "dark"
+  defaultTheme = "auto"
 
   ShowReadingTime = false
   ShowShareButtons = false
