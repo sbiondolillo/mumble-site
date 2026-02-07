@@ -1,3 +1,4 @@
 baseURL = "https://mumble.capitalmesh.net/"
 languageCode = "en-us"
 title = "Mumble Onboarding"
+theme = ["github.com/adityatelange/hugo-PaperMod"]
