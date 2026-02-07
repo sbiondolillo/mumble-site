@@ -1,4 +1,47 @@
 baseURL = "https://mumble.capitalmesh.net/"
 languageCode = "en-us"
-title = "Mumble Onboarding"
+title = "Capital Region Mesh"
 theme = ["github.com/adityatelange/hugo-PaperMod"]
+
+[params]
+  env = "production"
+  defaultTheme = "dark"
+
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowBreadCrumbs = false
+  ShowPostNavLinks = false
+  ShowCodeCopyButtons = true
+
+  images = ["favicon.png"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "What is the Mesh?"
+    url = "https://capitalmesh.net/what-is-the-mesh/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Join"
+    url = "https://capitalmesh.net/join/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Contribute"
+    url = "https://capitalmesh.net/contribute/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Mission"
+    url = "https://capitalmesh.net/mission/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Blog"
+    url = "https://capitalmesh.net/blog/"
+    weight = 50
